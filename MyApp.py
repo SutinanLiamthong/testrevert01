@@ -18,6 +18,7 @@ class LoginScreen(GridLayout):
         self.submit = Button(text ='Sign In')
         self.add_widget(self.submit)
         self.submit.bind(on_press=self.pressed)
+    #add function
 
 
 class MyApp(App):
