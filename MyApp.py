@@ -20,7 +20,7 @@ class LoginScreen(GridLayout):
         self.submit.bind(on_press=self.pressed)
     #add function1
     #add function2
-
+    #add function3
 
 class MyApp(App):
 
