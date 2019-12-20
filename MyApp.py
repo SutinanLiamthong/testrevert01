@@ -14,6 +14,11 @@ class LoginScreen(GridLayout):
         self.add_widget(self.username)
         self.password = TextInput(password=True, multiline=False)
         self.add_widget(self.password)
+        #update
+        self.submit = Button(text ='Sign In')
+        self.add_widget(self.submit)
+        self.submit.bind(on_press=self.pressed)
+
 
 class MyApp(App):
 
