@@ -12,6 +12,8 @@ class LoginScreen(GridLayout):
         self.add_widget(Label(text='username'))
         self.username = TextInput(multiline=False)
         self.add_widget(self.username)
+        self.password = TextInput(password=True, multiline=False)
+        self.add_widget(self.password)
 
 class MyApp(App):
 
